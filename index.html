@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quatex Trading</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="py-4 px-6 flex items-center justify-between">
+        <div class="flex items-center">
+            <img src="images/logo.png" alt="Quatex Logo" class="h-10">
+        </div>
+          <div class="flex items-center space-x-6">
+            <a href="#" class="nav-link text-gray-300 hover:text-white">DEMO ACCOUNT</a>
+            <a href="#" class="nav-link text-gray-300 hover:text-white">ABOUT US</a>
+            <a href="#" class="nav-link text-gray-300 hover:text-white">FAQ</a>
+            <button class="bg-transparent border border-gray-600 text-white px-6 py-2 rounded hover:border-white transition-colors duration-300">LOGIN</button>
+            <button class="btn-primary text-white px-6 py-2 rounded">SIGN UP</button>
+            <div class="flex items-center">
+                <span class="text-gray-300">EN</span>
+                <i class="fas fa-globe ml-2"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="px-6 py-20 text-center">
+        <h1 class="text-6xl font-bold mb-6">Quatex Trading</h1>
+        <h2 class="text-4xl font-bold mb-6">Innovative platform for<br>smart investments</h2>
+        <p class="text-xl text-gray-400 mb-8">Sign up Quatex Broker and get 10,000 USD to your demo account to learn how to trade.</p>
+        <button class="btn-primary cta-button text-white text-xl px-8 py-4 rounded-lg mb-4">Create a free account</button>
+        <p class="text-sm text-gray-400">*The minimum deposit amount to start real trading is 10 USD</p>
+        <img src="images/trading-platform.svg" alt="Trading Platform" class="mt-12 w-full max-w-5xl mx-auto">
+    </section>
+
+    <!-- Features Section -->
+    <section class="px-6 py-20 bg-[#1d2235]">
+        <h2 class="text-4xl font-bold text-center mb-4">Features of the Quatex platform</h2>
+        <p class="text-xl text-gray-400 text-center mb-16">We regularly improve our platform to make your trading comfortable and safe.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Feature 1 -->
+            <div class="p-8 rounded-lg bg-[#1a1f2e]">
+                <div class="feature-icon bg-purple-600 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-columns text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">User-friendly interface</h3>
+                <p class="text-gray-400 mb-6">You have access to all the trading instruments you need, and their speed is impressive.</p>
+                <a href="#" class="nav-link text-blue-400 flex items-center hover:text-blue-300">Sign up <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card p-8 rounded-lg bg-[#1a1f2e]">
+                <div class="feature-icon bg-red-400 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-signal text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Integrated signals</h3>
+                <p class="text-gray-400 mb-6">Signals with 87% accuracy rate will help you to build a profitable strategy.</p>
+                <a href="#" class="nav-link text-blue-400 flex items-center hover:text-blue-300">Try it <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card p-8 rounded-lg bg-[#1a1f2e]">
+                <div class="feature-icon bg-blue-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-chart-line text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Trading indicators</h3>
+                <p class="text-gray-400 mb-6">We have collected the most useful trading indicators for you. Test them on a demo account to see which ones best suit your trading style.</p>
+                <a href="#" class="nav-link text-blue-400 flex items-center hover:text-blue-300">Explore <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="feature-card p-8 rounded-lg bg-[#1a1f2e]">
+                <div class="feature-icon bg-yellow-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-headset text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Support 24/7</h3>
+                <p class="text-gray-400 mb-6">Our highly trained support staff is ready to assist you at any time.</p>
+                <a href="#" class="nav-link text-blue-400 flex items-center hover:text-blue-300">Submit a request <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+
+            <!-- Feature 5 -->
+            <div class="feature-card p-8 rounded-lg bg-[#1a1f2e]">
+                <div class="feature-icon bg-green-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-gift text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Bonus programs</h3>
+                <p class="text-gray-400 mb-6">Participate in tournaments and giveaways for traders to get bonuses.</p>
+                <a href="#" class="nav-link text-blue-400 flex items-center hover:text-blue-300">Get a bonus <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+
+            <!-- Feature 6 -->
+            <div class="feature-card p-8 rounded-lg bg-[#1a1f2e]">
+                <div class="feature-icon bg-cyan-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-wallet text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">Deposits and withdrawals</h3>
+                <p class="text-gray-400 mb-6">Various deposit options and fast withdrawal of funds. The minimum deposit is only 10 USD.</p>
+                <a href="#" class="nav-link text-blue-400 flex items-center hover:text-blue-300">Start trading <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="px-6 py-20 flex items-center justify-center">
+        <div class="text-center max-w-2xl">
+            <img src="images/graduate.svg" alt="Graduate" class="w-32 mx-auto mb-6">
+            <h2 class="text-3xl font-bold mb-4">Trade on demo – no registration is required!</h2>
+            <p class="text-gray-400 mb-8">Or register a personal account to access additional features.</p>
+            <div class="flex justify-center space-x-4">
+            <button class="bg-[#2a2f42] text-white px-6 py-3 rounded-lg hover:bg-[#353b52] transition-colors duration-300">Try demo</button>
+            <button class="btn-primary cta-button text-white px-6 py-3 rounded-lg">Register an account</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trading Interface -->
+    <section class="px-6 py-20 bg-[#1a1f2e]">
+        <div class="max-w-6xl mx-auto">
+            <div class="balance-card rounded-lg p-6 mb-8">
+                <div class="flex justify-between items-center mb-6">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Account Balance</h3>
+                        <div id="accountBalance" class="text-2xl font-bold text-green-500">$10,000.00 USD</div>
+                    </div>
+                    <div class="flex gap-4">
+                        <button class="btn-primary px-4 py-2 rounded-lg flex items-center">
+                            <i class="fas fa-plus mr-2"></i> Deposit
+                        </button>
+                        <button class="bg-[#2a2f42] text-white px-4 py-2 rounded-lg flex items-center hover:bg-[#353b52] transition-colors duration-300">
+                            <i class="fas fa-minus mr-2"></i> Withdraw
+                        </button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4 text-center">
+                    <div class="stats-card p-4 rounded-lg">
+                        <div class="text-gray-400 mb-1">Total Profit</div>
+                        <div id="totalProfit" class="text-xl font-bold text-green-500">+$1,245.50</div>
+                    </div>
+                    <div class="stats-card p-4 rounded-lg">
+                        <div class="text-gray-400 mb-1">Win Rate</div>
+                        <div id="winRate" class="text-xl font-bold text-blue-400">87%</div>
+                    </div>
+                    <div class="stats-card p-4 rounded-lg">
+                        <div class="text-gray-400 mb-1">Total Trades</div>
+                        <div id="totalTrades" class="text-xl font-bold">156</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-8">
+                <!-- Market Data -->
+                <div class="col-span-2 balance-card rounded-lg p-6">
+                    <div class="flex justify-between items-center mb-6">
+                        <div class="flex items-center">
+                            <div class="currency-pair">
+                                <span>EUR/USD</span>
+                                <span class="text-green-500">1.2145</span>
+                                <span class="price-change positive">+0.00234 (0.19%)</span>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <button id="buyButton" class="buy-button text-white px-6 py-2 rounded-lg transition-colors duration-300">
+                                Buy
+                            </button>
+                            <button id="sellButton" class="sell-button text-white px-6 py-2 rounded-lg transition-colors duration-300">
+                                Sell
+                            </button>
+                        </div>
+                    </div>
+                    <div class="trading-chart h-64 bg-[#1a1f2e] rounded-lg mb-6 relative overflow-hidden">
+                        <canvas id="tradingChart" class="w-full h-full"></canvas>
+                        <div class="absolute top-4 left-4 text-2xl font-bold">
+                            <span id="currentPrice">44.0000</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-gray-400 mb-2">Investment Amount</label>
+                            <div class="relative">
+                                <input type="text" id="investmentAmount" value="100" class="w-full bg-[#1a1f2e] border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                                <span class="absolute right-4 top-2 text-gray-400">USD</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-400 mb-2">Time Frame</label>
+                            <select id="timeFrame" class="w-full bg-[#1a1f2e] border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                                <option value="60">1 Minute</option>
+                                <option value="300">5 Minutes</option>
+                                <option value="900">15 Minutes</option>
+                                <option value="3600">1 Hour</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active Trades -->
+                <div class="balance-card rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-chart-line mr-2 text-green-500"></i>
+                        Active Trades
+                    </h3>
+                    <div id="activeTradesList" class="space-y-4">
+                        <div class="trade-card p-4 rounded-lg">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-bold">EUR/USD</span>
+                                <span class="text-green-500">+$24.50</span>
+                            </div>
+                            <div class="flex justify-between text-sm text-gray-400">
+                                <span class="flex items-center">
+                                    <i class="fas fa-arrow-up text-green-500 mr-1"></i>
+                                    Buy @ 1.2130
+                                </span>
+                                <span class="flex items-center">
+                                    <i class="far fa-clock mr-1"></i>
+                                    2m 15s
+                                </span>
+                            </div>
+                        </div>
+                        <div class="trade-card p-4 rounded-lg">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-bold">BTC/USD</span>
+                                <span class="text-red-500">-$12.30</span>
+                            </div>
+                            <div class="flex justify-between text-sm text-gray-400">
+                                <span class="flex items-center">
+                                    <i class="fas fa-arrow-down text-red-500 mr-1"></i>
+                                    Sell @ 45,230
+                                </span>
+                                <span class="flex items-center">
+                                    <i class="far fa-clock mr-1"></i>
+                                    4m 30s
+                                </span>
+                            </div>
+                        </div>
+                        <div class="trade-card p-4 rounded-lg">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-bold">GBP/JPY</span>
+                                <span class="text-green-500">+$18.75</span>
+                            </div>
+                            <div class="flex justify-between text-sm text-gray-400">
+                                <span class="flex items-center">
+                                    <i class="fas fa-arrow-up text-green-500 mr-1"></i>
+                                    Buy @ 152.430
+                                </span>
+                                <span class="flex items-center">
+                                    <i class="far fa-clock mr-1"></i>
+                                    1m 45s
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trading Steps -->
+    <section class="trading-steps px-6 py-20">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-4xl font-bold text-white mb-6">Grow your capital by making the right trading predictions</h2>
+                    <p class="text-gray-400 mb-8">Will the price go up or down? Predict the price movement of a trading asset and place a trade.</p>
+                    <button class="btn-primary cta-button text-white px-6 py-3 rounded-lg mb-4">Try it for free</button>
+                    <p class="text-gray-400">Practice on a demo account without registration.</p>
+                </div>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="step-card bg-white bg-opacity-10 p-6 rounded-lg">
+                        <div class="bg-green-500 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-chart-bar text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">1. Select an asset</h3>
+                    </div>
+                    <div class="step-card bg-white bg-opacity-10 p-6 rounded-lg">
+                        <div class="bg-green-500 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-chart-line text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">2. Monitor the chart</h3>
+                    </div>
+                    <div class="step-card bg-white bg-opacity-10 p-6 rounded-lg">
+                        <div class="bg-green-500 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-hand-pointer text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">3. Place a trade</h3>
+                    </div>
+                    <div class="step-card bg-white bg-opacity-10 p-6 rounded-lg">
+                        <div class="bg-green-500 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-check-circle text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">4. Get the result</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

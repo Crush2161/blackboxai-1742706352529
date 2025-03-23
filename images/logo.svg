@@ -1,0 +1,4 @@
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="35" font-family="Arial" font-size="30" fill="white">QUATEX</text>
+  <rect x="120" y="10" width="30" height="30" fill="#00c853"/>
+</svg>

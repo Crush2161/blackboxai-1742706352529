@@ -1,0 +1,20 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#1e2235"/>
+  <rect x="50" y="50" width="700" height="300" rx="10" fill="#2a2d3d"/>
+  
+  <!-- Trading Chart -->
+  <polyline points="100,250 200,180 300,220 400,150 500,190 600,120 700,160" 
+    stroke="#00c853" fill="none" stroke-width="2"/>
+  
+  <!-- Trading Interface Elements -->
+  <rect x="80" y="80" width="150" height="30" fill="#353849"/>
+  <rect x="250" y="80" width="150" height="30" fill="#353849"/>
+  <rect x="80" y="300" width="100" height="25" fill="#00c853"/>
+  <rect x="200" y="300" width="100" height="25" fill="#ff4444"/>
+  
+  <!-- Chart Grid Lines -->
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#353849" stroke-width="1"/>
+  <line x1="100" y1="150" x2="700" y2="150" stroke="#353849" stroke-width="1"/>
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#353849" stroke-width="1"/>
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#353849" stroke-width="1"/>
+</svg>
